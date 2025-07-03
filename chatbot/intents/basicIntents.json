@@ -1,0 +1,42 @@
+{
+  "intents": [
+    {
+      "tag": "inicio",
+      "patterns": ["início", "começar", "quero ajuda", "menu", "ajuda"],
+      "responses": [
+        "Olá! 👋 Bem-vindo à Compact.\n\nPosso te ajudar com:\n\n1️⃣ *Fazer um Orçamento*\n2️⃣ *Saber mais sobre a Compact*\n3️⃣ *Falar com um atendente*\n\nÉ só me dizer o que deseja. 😊"
+      ]
+    },
+    {
+      "tag": "saudacao",
+      "patterns": ["olá", "oi", "bom dia", "boa tarde", "boa noite"],
+      "responses": [
+        "Olá! Seja bem-vindo à Compact! 😊\nComo posso te ajudar?\n\n1️⃣ Fazer Orçamento\n2️⃣ Saber mais sobre a Compact\n3️⃣ Falar com atendente"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["tchau", "adeus", "até logo", "até mais"],
+      "responses": ["Até logo! 👋", "Foi um prazer ajudar! Volte sempre. 😊", "Nos vemos em breve!"]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["obrigado", "valeu", "agradeço"],
+      "responses": ["De nada! 😊", "Sempre à disposição!", "Fico feliz em ajudar!"]
+    },
+    {
+      "tag": "empresa",
+      "patterns": ["quem são vocês", "sobre a empresa", "o que fazem", "o que é a Compact", "empresa", "2"],
+      "responses": [
+        "A Compact é uma empresa especializada na criação de sites modernos, eficientes e personalizados. 💻✨\n\nNosso objetivo é ajudar negócios a se destacarem online com soluções digitais sob medida, design profissional e foco em resultados.\n\nEstamos aqui para transformar ideias em experiências digitais incríveis! 🚀"
+      ]
+    },
+    {
+      "tag": "atendente",
+      "patterns": ["quero falar com atendente", "humano", "suporte", "falar com alguém", "3"],
+      "responses": [
+        "Certo! 📞 Um de nossos atendentes entrará em contato com você por telefone em breve. Fique atento ao seu número cadastrado. 😉"
+      ]
+    }
+  ]
+}
